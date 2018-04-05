@@ -18,5 +18,10 @@ SELECT * FROM notreturnedmovies;
 
 SELECT * FROM ammountofmoviesrented;
 
+-- Fråga 7: En Stored Procedure som ska köras när en film lämnas ut. Ska alltså sätta filmen till uthyrd, vem som hyrt den osv.
+
+call sp_RentMovie(/*movieID*/12,/*customerID*/10,/*employeeID*/1);
+
+
 
 
