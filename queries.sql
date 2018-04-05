@@ -14,3 +14,9 @@ SELECT * FROM listrentedmovies;
 
 SELECT * FROM notreturnedmovies;
 
+-- Fråga 5: En lista över alla anställda och hur många filmer varje anställd har hyrt ut.
+
+SELECT * FROM ammountofmoviesrented;
+
+
+
